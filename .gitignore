@@ -1,0 +1,22 @@
+# Data files (too large for git — add your own to data/)
+data/*.xlsx
+data/*.csv
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Assets (optional — remove this line if you want to commit chart screenshots)
+# assets/
